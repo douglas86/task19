@@ -5,7 +5,8 @@ const useStyles = makeStyles({
     textAlign: "center",
   },
   input: {
-    margin: "10% 25%",
+	margin: "20% 10%",
+    width: "80%",
   },
 });
 
