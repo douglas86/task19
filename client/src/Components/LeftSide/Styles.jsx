@@ -4,6 +4,9 @@ const useStyles = makeStyles({
   left: {
     textAlign: "center",
   },
+  input: {
+    margin: "10% 25%",
+  },
 });
 
 export default useStyles;

@@ -6,7 +6,12 @@ const Left = () => {
   return (
     <div>
       <h1 className={classes.left}>Itunes search API</h1>
-      <input type="text" placeholder="Search" required />
+      <input
+        className={classes.input}
+        type="text"
+        placeholder="Search"
+        required
+      />
     </div>
   );
 };
