@@ -5,10 +5,11 @@ const useStyles = makeStyles({
     textAlign: "center",
   },
   input: {
-    margin: "20% 10%",
+    margin: "20% 10% 5% 10%",
     width: "80%",
   },
   radio: {
+    marginLeft: "10px",
     marginRight: "10px",
   },
 });

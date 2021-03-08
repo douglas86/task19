@@ -3,6 +3,17 @@ import useStyles from "./Styles";
 
 const Left = () => {
   const classes = useStyles();
+  let lab = [
+    "e books",
+    "Movies",
+    "podcasts",
+    "music",
+    "audiobook",
+    "short film",
+    "TV shows",
+    "software",
+    "all",
+  ];
   return (
     <div>
       <h1 className={classes.left}>Itunes search API</h1>
@@ -12,8 +23,12 @@ const Left = () => {
         placeholder="Search"
         required
       />
-      <input type="radio" className={classes.radio} />
-      <label>e books</label>
+      {lab.map((i) => (
+        <div>
+          <input type="radio" name="rad" className={classes.radio} />
+          <label>{i}</label>
+        </div>
+      ))}
     </div>
   );
 };
