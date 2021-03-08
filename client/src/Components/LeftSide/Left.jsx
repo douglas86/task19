@@ -1,9 +1,11 @@
 import React from "react";
+import useStyles from "./Styles";
 
 const Left = () => {
+  const classes = useStyles();
   return (
     <div>
-      <h2>left side</h2>
+      <h1 className={classes.left}>Itunes search API</h1>
     </div>
   );
 };
