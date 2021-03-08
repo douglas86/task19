@@ -19,7 +19,7 @@ const Left = () => {
         <Row>
           <Col xl={6}>
             {labelLeft.map((l, i) => (
-              <div key={l}>
+              <div key={i}>
                 <input type="radio" name="rad" className={classes.radio} />
                 <label>{l}</label>
               </div>
@@ -27,7 +27,7 @@ const Left = () => {
           </Col>
           <Col xl={6}>
             {labelRight.map((l, i) => (
-              <div key={l}>
+              <div key={i}>
                 <input type="radio" name="rad" className={classes.radio} />
                 <label>{l}</label>
               </div>

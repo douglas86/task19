@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     width: "80%",
   },
   radio: {
-    marginLeft: "10px",
+    marginLeft: "30%",
     marginRight: "10px",
   },
 });
