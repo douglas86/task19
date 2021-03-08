@@ -12,6 +12,8 @@ const Left = () => {
         placeholder="Search"
         required
       />
+      <input type="radio" className={classes.radio} />
+      <label>e books</label>
     </div>
   );
 };
