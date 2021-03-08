@@ -1,6 +1,7 @@
 import Left from "./LeftSide/Left";
 import Right from "./RightSide/Right";
 import { Row, Col } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
