@@ -17,7 +17,7 @@ const Left = () => {
           required
         />
         <input type="radio" className={classes.all} name="rad" />
-		  <label>Search all content</label>
+        <label>Search all content</label>
         <Row>
           <Col xl={6}>
             {labelLeft.map((l, i) => (
