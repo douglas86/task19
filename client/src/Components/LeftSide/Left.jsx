@@ -16,6 +16,8 @@ const Left = () => {
           placeholder="Search"
           required
         />
+        <input type="radio" className={classes.all} name="rad" />
+		  <label>Search all content</label>
         <Row>
           <Col xl={6}>
             {labelLeft.map((l, i) => (
@@ -34,8 +36,6 @@ const Left = () => {
             ))}
           </Col>
         </Row>
-        <input type="radio" className={classes.radio} name="rad" />
-        <label>all</label>
       </Container>
     </div>
   );

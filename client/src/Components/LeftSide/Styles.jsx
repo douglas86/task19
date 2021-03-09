@@ -12,6 +12,10 @@ const useStyles = makeStyles({
     marginLeft: "30%",
     marginRight: "10px",
   },
+  all: {
+    marginLeft: "30%",
+    marginRight: "10px",
+  },
 });
 
 export default useStyles;
